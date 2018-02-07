@@ -1,0 +1,205 @@
+/*
+ Theme Name:     Fortuna Child
+ Description:    Fortuna Child Theme
+ Author:         BlueOwlCreative
+ Template:       fortuna
+
+*/
+ 
+@import url("fonts/fonts.css");
+@import url("../fortuna/style.css");
+ 
+ 
+
+/* Theme customization starts here */
+h1, h2, h3, h4, h5, h6, .heading_font {
+	font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
+}
+
+body{
+    font-family: 'Cardo', Arial, Helvetica, sans-serif !important;
+}
+
+.align-right {
+	float: right;
+}
+.bold-text {
+	font-weight: 700;
+}
+.type-wrap {
+    color: #fff;
+    font-size: 30px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
+    text-align: center;
+}
+.share-buttons {
+    margin-top: 30px;
+}
+
+
+/* Manually update the site color */
+#menu > ul > li > div {
+    border-top: 2px solid #c02034 !important;
+}
+a:hover, 
+a:focus {
+    color: #c02034 !important;
+}
+h1 strong, 
+h2 strong, 
+h3 strong, 
+h4 strong, 
+h5 strong {
+    color: #c02034 !important;
+}
+.custom_menu_4 #menu > ul > li ul > li > a:hover,
+.small_month,
+.month,
+.button:hover, 
+a:hover.button, 
+button:hover, 
+input[type="submit"]:hover, 
+input[type="reset"]:hover, 
+input[type="button"]:hover {
+    background-color: #c02034 !important;
+    color: #fff !important;
+}
+.sub-menu a:hover,
+.sub-menu a:focus{
+	color: #fff !important;
+}
+.post_content a:not(.button), 
+.post_content a:not(.button):visited {
+    color: #c02034 !important;
+}
+.owl-theme .owl-controls .owl-nav div {
+    background: #c02034 !important;
+}
+input.btn_theme_color, a.btn_theme_color, .btn_theme_color {
+    background-color: #c02034;
+}
+.testimonials .owl-theme .owl-controls .owl-nav div,
+.owl_side_arrows .owl-theme .owl-controls .owl-nav div {
+	background: transparent !important;
+}
+.portfolio_inline_filter ul li div:hover {
+    background-color: #c02034;
+}
+a:hover .pic_info.type5 .info_overlay {
+    background: #c02034;
+}
+.post_item_block.boxed .pic {
+    border-bottom: 3px solid #c02034;
+}
+blockquote {
+    border-left: 3px solid #c02034;
+}
+.boc_list_item .li_icon i.icon {
+    color: #c02034;
+}
+.minimal_style.horizontal .resp-tabs-list li.resp-tab-active {
+    background: #c02034;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #c02034;
+}
+.subscribe_form_sub {
+    margin-bottom: 80px !important;
+}
+
+
+/*Journal Banner Image*/
+.journal-banner .upb_row_bg {
+    background-size: 100%;
+}
+
+@media only screen and (max-width: 991px){
+	.vc_row.wpb_row.service-page-banner {
+	    padding-top: 130px !important;
+	    padding-bottom: 100px !important;
+	}
+	.vc_row.wpb_row.service-page-banner h1{
+		font-size: 46px !important;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.vc_row.wpb_row.service-page-banner {
+	    padding-top: 70px !important;
+    	padding-bottom: 30px !important;
+	}
+	.vc_row.wpb_row.service-page-banner h1{
+		font-size: 22px !important;
+	}
+	.vc_row.wpb_row.mobile-section-padding {
+	    padding-top: 60px !important;
+	    padding-bottom: 60px !important;
+	}
+	.subscribe_form_sub {
+	    margin-bottom: 40px !important;
+	}
+	.vc_row.homepage-banner {
+	    padding-top: 100px !important;
+	    padding-bottom: 100px !important;
+	}
+	.homepage-banner h1 {
+	    font-size: 50px !important;
+	}
+	.journal-banner h1 {
+	    font-size: 40px !important;
+	    margin-bottom: 0 !important;
+	}
+	.journal-banner .boc_divider {
+	    margin-top: 0px !important;
+	}
+	.journal-banner h2 {
+	    font-size: 22px !important;
+	}
+	.vc_row.vc_row-fluid.journal-banner {
+	    padding-top: 90px !important;
+	    padding-bottom: 70px !important;
+	}
+	.vc_row.wpb_row.browse-journal-top {
+	    padding-top: 60px !important;
+	}
+	.vc_row.wpb_row.browse-journal-bottom {
+		padding-bottom: 30px !important;
+	}
+	.vc_row.wpb_row.mobile-no-padding {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+
+}
+
+
+@media only screen and (max-width: 490px) {
+	.vc_row.homepage-banner {
+	    padding-top: 70px !important;
+	    padding-bottom: 70px !important;
+	}
+	.homepage-banner h3{
+		font-size: 16px !important;
+	}
+	.homepage-banner h1 {
+	    font-size: 30px !important;
+	}
+	.type-wrap {
+	    font-size: 16px;
+	}
+	.vc_row.vc_row-fluid.journal-banner {
+	    padding-top: 60px !important;
+	    padding-bottom: 50px !important;
+	}
+	.journal-banner h1 {
+	    font-size: 30px !important;
+	    margin-bottom: 0 !important;
+	}
+	.journal-banner .boc_divider {
+	    margin-top: 0px !important;
+	    margin-bottom: 15px;
+	}
+	.journal-banner h2 {
+	    font-size: 16px !important;
+	}
+}
